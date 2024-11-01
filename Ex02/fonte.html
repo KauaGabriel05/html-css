@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        body{
+            font-family: 'Work Sans', Helvetica, sans-serif; /* sans-serif é para garantir que todo aparelho ira aceitar alguma fonte*/
+            
+            font-size: 2em;
+            font-weight: 300;
+            font-style: italic;
+            text-decoration: underline;
+            /* 
+            para simplificar pode usar o compando font:
+            mas tem que ser em ordem, a ordem e:
+            font-style -> font-weight -> font-size -> font-family
+            
+            exemplo:
+
+            font: italic 300 2em 'Work Sans', sans-serif;
+
+            font-weight: Existem o lighter, normal, bold e bolder
+            */
+        } 
+        
+        
+
+        /* 
+        
+        medidas absolutas:
+        cm, mm, in (polegada), px (pixel), pt (ponto), pc(paica). pt e pc não é recomendado para usar em tela
+
+        medidas relativas:
+        em(altura M), ex (Altura X), rem, vw, vh, % 
+
+
+        !!!!!
+        Recomendado usar o em ou px
+        1em = 16px (geralmente)
+
+        */
+        h1,h2{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body >
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet 
+        consectetur adipisicing elit
+        . Enim reprehenderit minima n
+        umquam sit! Fugit ipsa aperiam e
+        xplicabo quo sunt eius nam si
+        t quod quia, ratione nemo p
+        orro! Vero, dolorem architecto?</p>
+
+        <h2>subtitulo</h2>
+
+        <p>Lorem ipsum dolor sit amet con
+            sectetur adipisicing elit. Sae
+            pe, cumque maxime animi, numqua
+            m ad provident nobis totam illo
+             excepturi porro earum architec
+             to magni, laudantium blanditii
+             s neque repellat sapiente odio 
+             asperiores?</p>
+</body>
+</html>
