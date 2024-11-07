@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+        }
+        
+        footer > p{
+            margin: 0px;
+        }
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(141, 141, 141);
+        }
+
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.486);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(54, 54, 226);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+
+            <article>
+            
+                <h2>Noticias do mundo:</h2>
+            
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur dolor beatae sapiente voluptate doloribus quasi eaque tempore, non rem? Facere, porro magni! Voluptate inventore perspiciatis commodi soluta deleniti vitae?ipsum dolor sit amet consectetur adipisicing elit. Atque, quis. Corrupti rem sit quas eum minima, illo itaque placeat nulla, blanditiis explicabo soluta beatae velit quibusdam ipsa, quae veniam aut!</p>
+
+                    <aside> Artigo escrito por Crispim</aside>
+                
+            
+            </article>
+
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por KauãProduções</p>
+    </footer>
+</body>
+</html>
