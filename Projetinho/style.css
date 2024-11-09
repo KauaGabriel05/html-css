@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'android';
     src: url(font/idroid.otf) format(opentype);
@@ -17,15 +19,14 @@ header{
     height: 200px;
     background-image: linear-gradient(to top, #39814D, #57C576 );
     padding-top: 30px;
+    margin-bottom: 100px;
  }
 
  header > h1{
     margin: 0px;
  }
 
- header > p{
-    margin-bottom: 100px;
- }
+
 
  .centralizar{
     color: white;
@@ -33,16 +34,31 @@ header{
     font-family: Arial, Helvetica, sans-serif;
  }
 
- aside{
-    color: white;
+ header > div#manter {
+    margin-top: 10%;
+    padding-left: 20px;
+    top: 500px;
+    left: 500px;
+    right: 500px;
+    bottom: 500px;
+ }
+
+ div#manter :hover {
+    background-color: gray;
+    border-radius: 10px;
+    
 
  }
+
  
- aside > a {
+ 
+ header > div#manter > a {
     margin-right: 20px;
     color: white;
     text-decoration: none;
-    padding-left: 20px;
+    
+
+    
     
  }
 
@@ -77,24 +93,87 @@ header{
         text-decoration: none;
         color: #2A5E38;
         font-weight: bold;
+        
     }
 
-    #destaques {
+    .destaques {
         text-decoration: none;
         color: #2A5E38;
         font-weight: bold;
-        background-color: #57C576;
+        background-color: #57c576b4; /* backckup: #57C576*/
     }
 
     article > img{
         max-width: 100%;
         height: auto;
         display: block;
+        width: 100%;
 
     }
 
-    
+        /* CONTEUDO PRINCIPAL PT2 */
 
-    
+        nav > h3 {
+            font-family: 'android';
+            color: #2A5E38;
+            background-image: linear-gradient(to right, #66E78A, white);
+        }
 
-   
+        nav > p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-indent: 20px;
+        }
+
+        nav > p > a {
+            text-decoration: none;
+            color: #2A5E38;
+            font-weight: bold;
+        }
+
+        #fotoretrato{
+            max-width: 100%;
+            height: auto;
+            display: block;
+            width: 100%;
+    
+        }
+
+        #centralizar{
+            max-width: 100%;
+            height: auto;
+            display: block;
+          text-align: center;
+          padding-left: 25%;
+        }
+
+        #midia {
+            width: 100%;
+        }
+
+        /* RODAPE */
+
+        #rodape{
+            background-color: #57C576;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        div#rodape > p {
+            color: white;
+            padding: 10px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        footer > aside {
+            background-color: #66E78A;
+            height: 200px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        footer > aside > p {
+            text-decoration: none;
+            color: #2A5E38;
+            font-weight: bold;
+            text-indent: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
